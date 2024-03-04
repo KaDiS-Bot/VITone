@@ -18,7 +18,7 @@ const Complaints = () => {
         <h1 className="text-3xl font-bold mt-8 mb-4">Complaints</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {complaints.map(complaint => (
-            <div key={complaint.id} className="bg-white rounded-lg shadow p-4">
+            <div key={complaint.id} className="bg-white rounded-lg shadow border border-black p-4">
               <h2 className="text-xl font-bold mb-2">{complaint.title}</h2>
               <p>{complaint.description}</p>
             </div>

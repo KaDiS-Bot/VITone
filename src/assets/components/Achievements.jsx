@@ -28,11 +28,19 @@ const Achievements = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {alumniAchievements.map(alumni => (
-            <div key={alumni.id} className="bg-white rounded-lg shadow p-4">
+            <div key={alumni.id} className="bg-white rounded-lg shadow border border-black p-4">
               <h2 className="text-xl font-bold mb-2">{alumni.name}</h2>
               <p>{alumni.achievement}</p>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center mt-8">
+          <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-l">
+            Previous
+          </button>
+          <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-r">
+            Next
+          </button>
         </div>
       </div>
     </div>

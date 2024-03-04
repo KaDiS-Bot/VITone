@@ -1,8 +1,7 @@
-// Signup.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Signin = () => {
+const Signup = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -14,6 +13,10 @@ const Signin = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
+        {/* Image */}
+        <img className="mx-auto h-80 w-auto" src="https://static.vecteezy.com/system/resources/previews/020/030/846/large_2x/vit-letter-logo-design-on-white-background-vit-creative-circle-letter-logo-concept-vit-letter-design-vector.jpg" alt="Logo" />
+
+        {/* Sign Up Form */}
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign Up</h2>
         </div>
@@ -48,4 +51,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default Signup;
