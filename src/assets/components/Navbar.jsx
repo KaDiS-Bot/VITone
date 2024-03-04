@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 // Navbar component to display navigation links
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow">
+    <nav className="bg-blue-500 shadow">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="font-bold text-xl">VITone</span>
+            <span className="font-bold text-xl"><button Link to="/home">VITone</button></span>
           </div>
 
           {/* Navigation links */}

@@ -8,7 +8,7 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
-              <span className="font-bold text-xl"><button Link to ="/home">VITONE</button></span>
+              <span className="font-bold text-xl"><button> <Link to ="/home"> VITONE</Link> </button></span>
             </div>
             <div className="flex">
               <Link to="/news" className="px-3 py-2 text-gray-600 hover:text-gray-900">News</Link>
