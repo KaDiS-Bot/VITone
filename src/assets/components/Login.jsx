@@ -41,7 +41,7 @@ const Login = () => {
           </button>
         </form>
         <div className="text-center text-sm">
-          <p>Don't have an account? <Link to="/signup" className="font-medium text-indigo-600 hover:text-indigo-500">Sign Up</Link></p>
+          <p>Don't have an account? <Link to="/signin" className="font-medium text-indigo-600 hover:text-indigo-500">Sign Up</Link></p>
         </div>
       </div>
     </div>
